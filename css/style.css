@@ -127,3 +127,32 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /********** TABLET **********/
+ /* SEZIONE1 */
+@media only screen and (min-width:768px) {
+  
+.lessons .container{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 768px;
+}
+
+.lessons h2{
+    
+    flex-basis: 100%;
+}
+
+/* SEZIONE 2 */
+.steps .container{
+    max-width: 768px;
+    
+}
+
+/* SEZIONE 3 */
+.why-us .container{
+    max-width: 768px;
+}
+ }
+
+
