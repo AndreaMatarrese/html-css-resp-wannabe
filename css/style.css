@@ -130,29 +130,48 @@ img {
 
  /********** TABLET **********/
  /* SEZIONE1 */
-@media only screen and (min-width:768px) {
+ 
+ 
+@media only screen and (max-width:768px) {
   
-.lessons .container{
-    display:flex;
-    flex-wrap:wrap;
-    max-width: 768px;
+.container{
+    max-width: 700px;
 }
-
-.lessons h2{
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+h2{
     
     flex-basis: 100%;
-}
-
-/* SEZIONE 2 */
-.steps .container{
-    max-width: 768px;
-    
-}
-
-/* SEZIONE 3 */
-.why-us .container{
-    max-width: 768px;
 }
  }
 
 
+/********** TELEFONO **********/
+ /* SEZIONE1 */
+ 
+ @media only screen and (max-width:480px) {
+
+.lessons .container{
+    max-width: 350px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.col{
+    flex: 100%;
+}
+
+/* SEZIONE 2 */
+.steps .container{
+    max-width: 350px;
+}
+
+.why-us .container{
+    max-width: 350px;
+}
+ }
