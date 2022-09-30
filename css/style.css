@@ -128,6 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media only screen and (min-width:901px){
+   .container{
+    width: 100%;
+   }
+ }
+
+
+
  /********** TABLET **********/
  /* SEZIONE1 */
  
@@ -135,7 +143,7 @@ img {
 @media only screen and (min-width:481px) and (max-width:900px){
   
 .container{
-    width: 768px;
+    width: 100%;
 }
 
 h2{
